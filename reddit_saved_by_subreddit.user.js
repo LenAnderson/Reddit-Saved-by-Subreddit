@@ -15,7 +15,7 @@ var subs = {'0000000000':{name:'All Subs',things:[]}};
 
 function loadNext(doc) {
     return new Promise(function(resolve, reject) {
-        var next = doc.querySelector('.nav-buttons > .nextprev > [rel~="next"]');
+        var next = doc.querySelector('.nav-buttons > .nextprev [rel~="next"]');
         if (next && next.href) {
             var xhr = new XMLHttpRequest();
             xhr.open('GET', next.href, true);
