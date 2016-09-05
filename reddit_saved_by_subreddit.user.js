@@ -2,7 +2,7 @@
 // @name         Reddit - Saved by Subreddit
 // @namespace    https://github.com/LenAnderson/
 // @downloadURL  https://github.com/LenAnderson/Reddit-Saved-by-Subreddit/raw/master/reddit_saved_by_subreddit.user.js
-// @version      0.1
+// @version      0.2
 // @description  Filter the list of saved things by subreddit
 // @author       LenAnderson
 // @match        https://www.reddit.com/user/*/saved/
